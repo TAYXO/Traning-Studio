@@ -1,3 +1,4 @@
+/* section 1 */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0px;
@@ -23,17 +24,20 @@ body {
    font-size: 30px;
    font-weight: bold;
    
-   
 }
-
+.head a{
+    color: white;
+}
+a {
+    text-decoration: none;
+}
 .nav ul a:hover{
     background-color: #17162562;
 }
 button:hover{
     background-color: #eb550fc2;
+    cursor: pointer;
 }
-
-
 .nav {
     float: right;
     margin-left: 45px;
@@ -43,14 +47,12 @@ button:hover{
 }
 .nav ul a{
     font-size: 12px;
-}
-a {
     padding: 20px;
-    text-decoration: none ;
     color: black;
     font-weight: bold;
     transition: all ease 0.5s;
 }
+
 button{
     border: none;
     background-color: rgb(255, 30, 0);
@@ -78,3 +80,92 @@ button{
 .bodytext button{
     margin-left:480px;
 }
+
+/* section 2 */
+.main2{
+    width: 100%;
+    height: 600px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+.heading p{
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    font-size: 30px;
+}
+.pera{
+    width: 500px;
+    word-wrap: break-word;
+    text-align: center;
+    margin-left: 315px;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.contener {
+    display: flex;
+    width: 400px;
+    height: 100px;
+    margin: 20px;
+    margin-left: 100px;
+}
+.contener img{
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+}
+.cell h4{
+    margin: 0px;
+    margin-left: 4px;
+
+}
+.cell p{
+    font-size: 11px;
+    margin: 5px;
+}
+.cell a{
+    padding: 5px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(255, 30, 0);
+}
+
+/* section 3 */
+.main3{
+    width: 100%;
+    height: 400px;
+    background-image: url(images/back2.jpg);
+    background-size: 1200px 800px;
+    background-position: center ;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+.main3 div{
+    padding: 70px;
+    background-color: rgba(12, 11, 37, 0.527);
+    height: 260px;
+}
+.top{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+.top span{
+    color: rgb(255, 30, 0);
+}
+.bottom{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.main3 div button{
+    margin-left: 400px;
+    margin-top: 20px;
+}
+
+/* section 4 */
